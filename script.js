@@ -85,7 +85,7 @@ btnArrowRight.addEventListener("click", () => {
 
 	// Afficher le texte correspondant
 	tagLineElement.innerHTML = slides[index].tagLine;
-	console.log(index)
+	
 
 	// Retirer la classe dot_selected du bullet point actif
 	let dots = document.getElementsByClassName("dot");
